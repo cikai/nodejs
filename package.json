@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "nodejs-learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cikai/nodejs-learning.git"
+  },
+  "keywords": [
+    "nodejs-learning"
+  ],
+  "author": "cikai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cikai/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/cikai/nodejs-learning#readme"
+}
