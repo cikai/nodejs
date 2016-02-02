@@ -3,6 +3,7 @@ var url = require("url");
 var items = [];
 
 var server = http.createServer(function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
     switch (req.method) {
         case "POST":
             var item = "";
@@ -38,3 +39,5 @@ var server = http.createServer(function(req, res) {
             break;
     }
 });
+
+server.listen(process.env.PORT, process.env.IP);
