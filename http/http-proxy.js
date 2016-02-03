@@ -3,7 +3,7 @@ var opt = {
     host: '64.233.162.83',
     port: '80',
     method: 'POST',
-    path: 'http://www.google.com.tw',
+    path: 'http://www.google.com',
     headers: {
     
     }
@@ -11,9 +11,9 @@ var opt = {
 
 var opt2 = {
     host: '61.135.169.125',
-    port: '80',
+    port: '443',
     method: 'POST',
-    path: 'http://www.baidu.com',
+    path: 'https://www.baidu.com',
     headers: {
     
     }
@@ -33,3 +33,10 @@ var req = http.request(opt, function(res) {
 })
 
 req.end();
+
+var server = http.createServer(function (req, res) {
+	res.writeHead(200, {'Content-Type': 'text/html'});
+	res.end(body);
+});
+
+server.listen(process.env.PORT, process.env.IP);
