@@ -1,4 +1,4 @@
-### :point_right: [cikai.me](http://cikai.me) :two_men_holding_hands: [cikai.github.io](https://cikai.github.io) :point_left:
+### nodejs blog :point_left:
 
 ***
 
