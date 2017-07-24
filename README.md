@@ -1,4 +1,6 @@
 # nodejs-learning
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/cikai/nodejs.svg)](https://greenkeeper.io/)
 nodejs-learning
 
 Running a Node.js App:
